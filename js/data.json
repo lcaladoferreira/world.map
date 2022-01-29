@@ -1,0 +1,65 @@
+[
+    {
+        "lat": 57.185569,
+        "lng": 39.396566,
+        "title": "@kuznetsovandrey76",
+        "name": "Kuznetsov Andrey",
+        "fullText": "<span class=\"timezone\">UTC +3:00</span>",
+        "lang": "native: <i class=\"em em-ru\"></i> learn: <i class=\"em em-us\"></i>",
+        "img": "https://avatars2.githubusercontent.com/u/16838647"
+    },
+    {
+        "lat": 41.9818704,
+        "lng": 21.4484617,
+        "title": "@macesmajli",
+        "name": "Mario Krstevski",
+        "fullText": "<span class=\"timezone\">UTC +1:00</span>",
+        "lang": "native: <i class=\"em em-flag-mk\"></i> speak: <i class=\"em em-us\"></i>",
+        "img": "img/Mario-Krstevski.png"
+    },
+    {
+        "lat": 37.983810, 
+        "lng": 23.727539, 
+        "title": "@FoteiniK", 
+        "name": "Foteini Kollia", 
+        "fullText": "<span class=\"timezone\">UTC +2:00</span>", 
+        "lang":"native: <i class=\"em em-flag-gr\"></i>",
+        "img": "img/FoteiniK.png"
+    },
+    {
+        "lat": 40.8448,
+        "lng": -73.8648,
+        "title": "@withcheesepls",
+        "name": "<a href='https://josuerojasrojas.github.io'>Josue Rojas</a>",
+        "fullText": "Hello!",
+        "lang": "native: <i class=\"em em-us\"></i>",
+        "img": "https://avatars0.githubusercontent.com/u/10749061"
+  }
+  ,{
+        "lat": 30.675493, 
+        "lng": 76.720452, 
+        "title": "@Trion129", 
+        "name": "Parminder Singh", 
+        "fullText": "Memester coder!", 
+        "lang": "English, Hindi",
+        "img": "https://avatars2.githubusercontent.com/u/8445249?s=460&v=4"
+    }
+    ,{
+        "lat": -1.2683843, 
+        "lng": 36.7981071, 
+        "title": "@Ephygtz", 
+        "name": "Ephraim Githinji", 
+        "fullText": "Caffeinate. Sleep. Code. Repeat", 
+        "lang": "English. Swahili",
+        "img": "https://avatars1.githubusercontent.com/u/12892009?s=400&u=8814a160b371d0618f571ce5e93a5ac8e614c097&v=4"
+    }
+    ,{
+        "lat": 56.6744, 
+        "lng": 12.8578, 
+        "title": "@Iamlasse", 
+        "name": "L", 
+        "fullText": "Wassup!!!!", 
+        "lang": "English, Danish, Swedish, german",
+        "img": "https://avatars3.githubusercontent.com/u/556886?s=400&v=4"
+    }
+]
