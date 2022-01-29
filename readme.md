@@ -1,4 +1,4 @@
-**The Chingu world map** 
+**The Developers World map** 
 
 If you want to open the project on your computer.
 1. `git clone gh repo clone lcaladoferreira/world.map`
