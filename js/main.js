@@ -128,13 +128,15 @@ function addMarker(latLng, title, name, fullText, cohort, img, lang) {
         infoWindow.open(map, markers);  
     });    
 }
+// scroll down start position, ou seja, essa parte faz a pg começar do footer
 window.scrollTo({ left: 0, top: document.body.scrollHeight, behavior: "smooth" });
 
-		$('#login-button').click(function(){
-			document.location.href = "https://dev-node-map.vercel.app/login";
-		});
+// Projeto futuro de implementação de Login 
+		// $('#login-button').click(function(){
+			//document.location.href = "https://dev-node-map.vercel.app/login";
+		// });
 
-//idiomas
+//Projeto futuro de implementação idiomas
 const ru = '<i class="em em-ru"></i> ';
 const en = '<i class="em em-us"></i> ';
 const de = '<i class="em em-de"></i> ';
