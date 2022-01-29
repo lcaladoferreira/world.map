@@ -1,7 +1,7 @@
 **The Chingu world map** 
 
 If you want to open the project on your computer.
-1. `git clone https://github.com/kuznetsovandrey76/chingu-map.git`
+1. `git clone gh repo clone lcaladoferreira/world.map`
 2. `cd chingu-map`
 3. `npm install` - install `https://nodejs.org/en/`  
 4. `node server.js`
