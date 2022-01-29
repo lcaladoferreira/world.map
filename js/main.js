@@ -16,14 +16,14 @@ function loadData(url) {
 let map, infoWindow, clusterMarkers = [];
   
 function initMap() {
-    let markerImageSize = 30,  // Tamanho da imagem nativa
+    let markerImageSize = 500,  // Tamanho da imagem nativa
         markerImage = new google.maps.Size(markerImageSize, markerImageSize);
  
     let centerMap = {lat: 35, lng: 30};
     let mapOptions = {
         center: centerMap,
         scrollwheel: true, //proibição de ampliação
-        zoom: 3,
+        zoom: 2,
         minZoom: 2,
         fullscreenControl: true
     };
@@ -128,7 +128,11 @@ function addMarker(latLng, title, name, fullText, cohort, img, lang) {
         infoWindow.open(map, markers);  
     });    
 }
+window.scrollTo({ left: 0, top: document.body.scrollHeight, behavior: "smooth" });
 
+		$('#login-button').click(function(){
+			document.location.href = "https://dev-node-map.vercel.app/login";
+		});
 
 //idiomas
 const ru = '<i class="em em-ru"></i> ';
