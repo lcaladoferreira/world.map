@@ -29,3 +29,6 @@ _(Photo should be square, small size, in the photo there is no icon of the cohor
 Name of the image, your user name)_  
 5. record changes in `js/data.json`
 6. make a pull request :fire:
+
+
+

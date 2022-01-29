@@ -129,6 +129,7 @@ function addMarker(latLng, title, name, fullText, cohort, img, lang) {
     });    
 }
 
+
 //idiomas
 const ru = '<i class="em em-ru"></i> ';
 const en = '<i class="em em-us"></i> ';

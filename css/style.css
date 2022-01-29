@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; 
+  
 } 
 body {
   font-family: sans-serif;
@@ -10,26 +11,26 @@ body {
 } 
 .header {
   background: #CBD9D6;
-  height: 60px;
+  height: 10vh;
   position: relative;
   border: 1px solid gray;
 } 
 
 .header-img {
   position: absolute;
-  width: 50px;
-  top: 5px;
-  left: 5px;
+  width: 6vh;
+  top: 15px;
+  left: 20px;
 }
 .header-title {
     position: absolute;
-    left: 65px;
+    left: 8%;
     font-size: 45px;
-    top: 5px;
+    top: 20%;
 }
 .section {
   position: relative;
-  height: 800px;
+  height: 120vh;
   width: 100%;
 }
 .section-map {
