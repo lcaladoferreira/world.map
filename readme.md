@@ -2,8 +2,8 @@
 
 If you want to open the project on your computer.
 1. `git clone gh repo clone lcaladoferreira/world.map`
-2. `cd chingu-map`
-3. `npm install` - install `https://nodejs.org/en/`  
+2. `cd world-map`
+3. `npm install`
 4. `node server.js`
 5. `127.0.0.1:8080`
 
