@@ -1,7 +1,7 @@
 {
-  "name": "chingu-map",
+  "name": "world-map",
   "version": "1.0.0",
-  "description": "**The Chingu world map**",
+  "description": "**The world map**",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kuznetsovandrey76/chingu-map.git"
+    "url": "git+https://github.com/lcaladoferreira/world.map.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kuznetsovandrey76/chingu-map/issues"
+    "url": "https://github.com/lcaladoferreira/world.map/issues"
   },
-  "homepage": "https://github.com/kuznetsovandrey76/chingu-map#readme",
+  "homepage": "https://github.com/lcaladoferreira/world.map#readme",
   "dependencies": {
     "node-static": "^0.7.9"
   }

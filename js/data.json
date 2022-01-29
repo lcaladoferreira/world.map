@@ -62,4 +62,14 @@
         "lang": "English, Danish, Swedish, german",
         "img": "https://avatars3.githubusercontent.com/u/556886?s=400&v=4"
     }
+    ,
+    {
+        "lat": -23.4694647,
+        "lng": -46.683675,
+        "title": "@lcaladoferreira",
+        "name": "<a href='https://github.com/lcaladoferreira/'>Leandro Calado</a>",
+        "fullText": "Law and Code!",
+        "lang": "English, Spanish, Portuguese, Italian",
+        "img": "https://avatars.githubusercontent.com/u/83848600?s=400&u=b22fd37e36bde7ec0cf8fac965993fcb9ced917c&v=4"
+  }
 ]
