@@ -1,6 +1,6 @@
 function loadData(url) {
     return new Promise(function(resolve, reject) {
-        var xhr = new XMLHttpRequest();
+        let xhr = new XMLHttpRequest();
         xhr.open("GET", url);
         xhr.responseType = "json";
         xhr.send();
@@ -13,14 +13,14 @@ function loadData(url) {
     });
 }
 
-var map, infoWindow, clusterMarkers = [];
+let map, infoWindow, clusterMarkers = [];
   
 function initMap() {
-    var markerImageSize = 30,  // Размер собственных изображений
+    let markerImageSize = 30,  // Размер собственных изображений
         markerImage = new google.maps.Size(markerImageSize, markerImageSize);
  
-    var centerMap = {lat: 35, lng: 30};
-    var mapOptions = {
+    let centerMap = {lat: 35, lng: 30};
+    let mapOptions = {
         center: centerMap,
         scrollwheel: true, //запрет увеличения
         zoom: 3,
@@ -45,17 +45,17 @@ function initMap() {
        function(markersData) {
         for (var i = 0; i < markersData.length; i++){  
 
-            var latLng = new google.maps.LatLng(markersData[i].lat, markersData[i].lng);
-            var title = markersData[i].title;
-            var name = markersData[i].name;
-            var fullText = markersData[i].fullText;
-            var lang = markersData[i].lang;
+            let latLng = new google.maps.LatLng(markersData[i].lat, markersData[i].lng);
+            let title = markersData[i].title;
+            let name = markersData[i].name;
+            let fullText = markersData[i].fullText;
+            let lang = markersData[i].lang;
             // var icon = {
             //             url: 'img/cohort/' + markersData[i].cohort + '.png',       
             //             scaledSize: markerImage
             //             }; 
-            var img = markersData[i].img;
-            var cohort = markersData[i].cohort;
+            let img = markersData[i].img;
+            let cohort = markersData[i].cohort;
             // Добавляем маркер с информационным окном
             // addMarker(latLng, title, name, fullText, icon, cohort, img, lang); 
             addMarker(latLng, title, name, fullText, cohort, img, lang); 
@@ -68,7 +68,7 @@ function initMap() {
     });
 
     // Изменяем стиль карты
-    var styles = [
+    let styles = [
         {
             stylers: [
                 { hue: "#00bfff" },
@@ -97,7 +97,7 @@ function initMap() {
 // Функция добавления маркера с информационным окном
 // function addMarker(latLng, title, name, fullText, icon, cohort, img, lang) {   
 function addMarker(latLng, title, name, fullText, cohort, img, lang) {   
-    var markers = new google.maps.Marker({
+    let markers = new google.maps.Marker({
         position: latLng,
         map: map,
         title: title,
@@ -108,12 +108,12 @@ function addMarker(latLng, title, name, fullText, cohort, img, lang) {
     (lang == undefined) ? lang = "" : lang;
        
     // Цикл проходит по функции, добавить каждый маркер в clusterMarkers 
-    var test = clusterMarkers.push(markers);
+    let test = clusterMarkers.push(markers);
     // Отслеживаем клик по нашему маркеру
     google.maps.event.addListener(markers, "click", function() {
   
         // contentString - это переменная в которой хранится содержимое информационного окна.
-        var contentString = '<div class="campersImg">' +
+        let contentString = '<div class="campersImg">' +
                             '<img src="'+ img + '" class="avatar">' +
                             // '<img src="img/' + cohort + '".png\" class=\"cohort">' +
                             // '<img src="img/cohort/' + cohort + '.png" class="cohort">' +
