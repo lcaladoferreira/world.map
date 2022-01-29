@@ -35,11 +35,11 @@ p.header-title {
     
 }
 .btn {
-    border: 0;
-    width:10vw;
-    margin: 1px 0;
+    
+    width: 29vw;
     background-color: #f1c40f;
-    font-weight: 400;
+    font-weight: 200;
+    height: 5vh;
   }
   
   .btn:hover {
