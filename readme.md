@@ -1,4 +1,4 @@
-**The Developers World map** 
+**This is Developers Node Map** 
 
 If you want to open the project on your computer.
 1. `git clone gh repo clone lcaladoferreira/world.map`
@@ -29,6 +29,3 @@ _(Photo should be square, small size, in the photo there is no icon of the cohor
 Name of the image, your user name)_  
 5. record changes in `js/data.json`
 6. make a pull request :fire:
-
-
-
