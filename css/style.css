@@ -39,7 +39,6 @@ p.header-title {
     
 }
 .btn {
-    
     width: 29vw;
     background-color:#CBD9D6;
     font-weight: 600;
@@ -48,7 +47,6 @@ p.header-title {
     border-radius: 10000px;
     border-bottom-left-radius: 1000px;
     border-bottom-right-radius: 1000px;
-
   }
   
   .btn:hover {
@@ -57,7 +55,6 @@ p.header-title {
   }
 
   .btn-a {
-
     text-align: center;
     position: center;
     color: #008106; 

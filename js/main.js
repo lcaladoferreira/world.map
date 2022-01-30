@@ -1,3 +1,5 @@
+// Carregando banco de dados //
+
 function loadData(url) {
     return new Promise(function(resolve, reject) {
         let xhr = new XMLHttpRequest();
