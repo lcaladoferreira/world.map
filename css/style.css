@@ -29,6 +29,7 @@ body {
   border-bottom-left-radius: 1000px;
   border-bottom-right-radius: 1000px;
 }
+
 p.header-title {
   position: absolute;
   top: 20px;
@@ -43,6 +44,7 @@ p.header-title {
     background-color:#CBD9D6;
     font-weight: 600;
     height: 10vh;
+    position: right;
     border-radius: 10000px;
     border-bottom-left-radius: 1000px;
     border-bottom-right-radius: 1000px;
@@ -57,8 +59,9 @@ p.header-title {
   .btn-a {
 
     text-align: center;
+    position: center;
     color: #008106; 
-    font-size: 1.2em; 
+    font-size: 1.1em; 
   }
 
 .section {
@@ -115,27 +118,4 @@ a.footer-link{
 
   padding: 20px; 
 }
-.lang {
-  font-size: 1.2em;
-  padding-top: 2px;
-} 
-
- 
-
-.section-form__login-button{
-  cursor: pointer;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 30px;
-  margin: auto;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background: rgba(3,3,3,.8);
-  overflow: hidden;
-  opacity: 0.5;
-  box-shadow: 10px 10px 30px #000;}
 
