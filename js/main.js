@@ -19,11 +19,11 @@ function initMap() {
     let markerImageSize = 500,  // Tamanho da imagem nativa
         markerImage = new google.maps.Size(markerImageSize, markerImageSize);
  
-    let centerMap = {lat: 35, lng: 30};
+    let centerMap = {lat: -14, lng: -18};
     let mapOptions = {
         center: centerMap,
         scrollwheel: true, //proibição de ampliação
-        zoom: 2,
+        zoom: 3,
         minZoom: 2,
         fullscreenControl: true
     };
@@ -71,7 +71,7 @@ function initMap() {
     let styles = [
         {
             stylers: [
-                { hue: "##00ffe5" },
+                { hue: "" },
                 { saturation: -30 }
             ]
         },{
@@ -128,7 +128,7 @@ function addMarker(latLng, title, name, fullText, cohort, img, lang) {
         infoWindow.open(map, markers);  
     });    
 }
-// scroll down start position, ou seja, essa parte faz a pg começar do footer
+// esse código faz a pagina iniciar no footer
 window.scrollTo({ left: 0, top: document.body.scrollHeight, behavior: "smooth" });
 
 // Projeto futuro de implementação de Login 

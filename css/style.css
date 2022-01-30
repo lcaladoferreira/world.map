@@ -11,8 +11,8 @@ body {
   width: 100%;
 } 
 .header {
-  background: #CBD9D6;
-  height: 10vh;
+  background: rgb(34, 33, 33);
+  height: 11vh;
   position: relative;
   border: 1px solid gray;
   display: flex;
@@ -22,9 +22,12 @@ body {
 
 .header-img {
   position: absolute;
-  width: 10vh;
+  width: 20vh;
   top: 2px;
   left: 20px;
+  border-radius: 10000px;
+  border-bottom-left-radius: 1000px;
+  border-bottom-right-radius: 1000px;
 }
 p.header-title {
   position: absolute;
@@ -37,14 +40,25 @@ p.header-title {
 .btn {
     
     width: 29vw;
-    background-color: #f1c40f;
+    background-color:#CBD9D6;
     font-weight: 600;
-    height: 5vh;
+    height: 10vh;
+    border-radius: 10000px;
+    border-bottom-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+
   }
   
   .btn:hover {
-    background-color: orange;
+    background-color: rgb(0, 255, 4);
     transition: background-color 1s;
+  }
+
+  .btn-a {
+
+    text-align: center;
+    color: #008106; 
+    font-size: 1.2em; 
   }
 
 .section {
@@ -79,19 +93,28 @@ p.header-title {
 } 
 .footer {
   border: 1px solid black;
-  text-align: center;
-  background: #CBD9D6;
+  text-align: right;
+  background: rgb(34, 33, 33);
   padding: 15px 0;
   position: inherit;
 } 
 
 .footer-link {
   text-decoration: none;
-  color: black;
+  color: #008106;
   font-size: 25px;
   
 }
+.footer-img {
 
+  width: 5vh;
+  top: 2px;
+  left: 20px;
+}
+a.footer-link{
+
+  padding: 20px; 
+}
 .lang {
   font-size: 1.2em;
   padding-top: 2px;
