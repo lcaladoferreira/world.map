@@ -8,3 +8,4 @@ http.createServer(function(req, res) {
 
 console.log('Start server http://localhost:8080/');
 
+// cria as rotas
