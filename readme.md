@@ -1,6 +1,5 @@
 <h1> **This is Developers Node Map** </h1>
 <img align="justify" width="500" src="https://media.giphy.com/media/giKklFontfveZrNXjz/giphy.gif" />
-
 <h2> If you want to open the project on your computer.</h2>
 <ol>
     <li>`git clone gh repo clone lcaladoferreira/world.map`</li>
@@ -9,8 +8,6 @@
      <li>`node server.js`</li>
      <li>`127.0.0.1:8080` </li>
 </ol>
-    <br>
-
 <h2> :pencil2: If you want to add yourself to the map: </h2>
 
 ```
@@ -24,7 +21,6 @@
     "img": "img/[your username].jpe"        
 }        
 ```
-
 <h3> How to setup? </h3>
 <ol>
     <li>change the text in brackets (remove brackets)</li>
