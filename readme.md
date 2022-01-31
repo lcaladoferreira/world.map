@@ -11,7 +11,7 @@
 </ol>
     <br>
 
-:pencil2: If you want to add yourself to the map: 
+<h2> :pencil2: If you want to add yourself to the map: </h2>
 
 ```
 ,{   
@@ -28,11 +28,11 @@
 <h3> How to setup? </h3>
 <ol>
     <li>change the text in brackets (remove brackets)</li>
-    <li>open `https://www.google.com/maps` find your place</li>   
+    <li>open https://www.google.com/maps find your place</li>   
     <li>`lat` - first coordinate, `lng` - second coordinate</li>
-    <li>Find your flag here: `https://afeld.github.io/emoji-css/`</li>
+    <li>Find your flag here: https://afeld.github.io/emoji-css/</li>
     <li>add photos to the folder `img `(photo should be square, small size, in the photo there is no icon of the cohort). </li>
-    <li>Name of the image, your user name)_  </li>
+    <li>Name of the image, your user name)_ </li>
     <li>record changes in `js/data.json`</li>
     <li>make a pull request :fire:</li>
     </ol>
