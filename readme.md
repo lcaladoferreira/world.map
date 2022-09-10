@@ -1,4 +1,4 @@
-<h1> **This is Developers Node Map** </h1>
+<h1> **This is Node Developers World Map** </h1>
 <img align="justify" width="500" src="https://media.giphy.com/media/giKklFontfveZrNXjz/giphy.gif" />
 <h2> If you want to open the project on your computer.</h2>
 <ol>
